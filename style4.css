@@ -1,0 +1,52 @@
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: monospace;
+  color: DarkOrchid;
+}
+
+h3 {
+  color: red;
+  font-size: 50px;
+  font-family: monospace;
+}
+
+h2 {
+  color: navy;
+  font-family: sans-serif;
+}
+
+* {
+  background-color: PowderBlue;
+}
+
+.questions {
+  font-size: 40px;
+}
+
+.challenge_question {
+  font-size: 45px;
+  font-family: sans-serif;
+}
+
+img {
+  margin: 0 2000px;
+  border: solid navy 2px;
+}
+
+.directions {
+  font-size: 40px;
+  color: rgb(20, 106, 5);
+}
+
+.submit_answers_here {
+  color: black;
+}
+
+.check_answers_here {
+  color: black;
+}
+
+hr {
+  border: 2px solid black;
+}

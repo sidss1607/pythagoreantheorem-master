@@ -1,0 +1,46 @@
+.title {
+	font-weight: bold;
+	font-size: 80px;
+	color: green;
+	margin: 0 0;
+	font-family: monospace;
+}
+
+* {
+	text-align: center;
+	background-color: tan;
+}
+
+.image_1 {
+	width: 700px;
+	height: 500px;
+	border: 2px solid black;
+	margin: 10px 0;
+}
+
+.table_1 {
+	border: 2px solid black;
+	width: 500px;
+	font-size: 30px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.h2_1 {
+	margin: 0 0;
+	color: red;
+	font-family: sans-serif;
+}
+
+.h3_1 {
+	color: navy;
+	font-family: sans-serif;
+}
+
+h2 {
+	font-family: sans-serif;
+}
+
+hr {
+	border: 2px solid black;
+}
