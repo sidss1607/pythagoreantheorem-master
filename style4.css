@@ -1,36 +1,56 @@
+@keyframes animateX {
+  0% {
+      opacity:0;
+      transform: translateX(-100%);
+  }
+  100% {
+      opacity:1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes animateY {
+  0% {
+      opacity:0;
+      transform: translateY(-100%);
+  }
+  100% {
+      opacity:1;
+      transform: translateY(0);
+  }
+}
+
 h1 {
   text-align: center;
   font-size: 60px;
-  font-family: monospace;
   color: DarkOrchid;
+  animation: animateY 2s ease forwards;
 }
 
 h3 {
   color: red;
-  font-size: 50px;
-  font-family: monospace;
+  font-size: 40px;
 }
 
 h2 {
   color: navy;
-  font-family: sans-serif;
 }
 
 * {
   background-color: PowderBlue;
+  font-family: 'Gayathri', sans-serif;
 }
 
 .questions {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .challenge_question {
-  font-size: 45px;
-  font-family: sans-serif;
+  font-size: 30px;
 }
 
 img {
-  margin: 0 2000px;
+  margin: 0 1%;
   border: solid navy 2px;
 }
 
@@ -49,4 +69,8 @@ img {
 
 hr {
   border: 2px solid black;
+}
+
+body {
+	font-family: 'Gayathri', sans-serif;
 }

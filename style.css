@@ -1,9 +1,31 @@
+@keyframes animateX {
+    0% {
+        opacity:0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity:1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes animateY {
+    0% {
+        opacity:0;
+        transform: translateY(-100%);
+    }
+    100% {
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+
 .title {
 	font-weight: bold;
 	font-size: 80px;
 	color: green;
 	margin: 0 0;
-	font-family: monospace;
+    animation: animateY 2s ease forwards;
 }
 
 * {
@@ -16,6 +38,7 @@
 	height: 500px;
 	border: 2px solid black;
 	margin: 10px 0;
+    animation: animateX 2s ease forwards;
 }
 
 .table_1 {
@@ -24,23 +47,22 @@
 	font-size: 30px;
 	text-align: center;
 	font-family: sans-serif;
+    animation: animateX 3s ease forwards;
 }
 
 .h2_1 {
 	margin: 0 0;
 	color: red;
-	font-family: sans-serif;
 }
 
 .h3_1 {
 	color: navy;
-	font-family: sans-serif;
-}
-
-h2 {
-	font-family: sans-serif;
 }
 
 hr {
 	border: 2px solid black;
+}
+
+body {
+	font-family: 'Gayathri', sans-serif;
 }

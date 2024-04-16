@@ -1,0 +1,52 @@
+@keyframes animateX {
+  0% {
+      opacity:0;
+      transform: translateX(-100%);
+  }
+  100% {
+      opacity:1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes animateY {
+  0% {
+      opacity:0;
+      transform: translateY(-100%);
+  }
+  100% {
+      opacity:1;
+      transform: translateY(0);
+  }
+}
+
+* {
+  background-color: rgb(155, 95, 228);
+  text-align: center;
+  font-family: 'Gayathri', sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+  animation: animateY 2s ease forwards;
+  color: rgb(5, 72, 163)
+}
+
+h2 {
+  display: inline;
+  font-size: 55px;
+  color: rgb(255, 174, 0);
+  animation: animateX 3.5s ease forwards;
+}
+
+h3 {
+  display: inline;
+  font-size: 45px;
+  color: maroon;
+  animation: animateY 3.5s ease forwards;
+}
+
+hr {
+  border: 2px solid black;
+}
